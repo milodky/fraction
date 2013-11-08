@@ -1,1 +1,2 @@
 a lot of bugs need to be fixed
+v1: some bugs fixed, caused by accessing private members but forgot to set functions as friend
