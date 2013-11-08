@@ -28,5 +28,9 @@ int main()
 	cout << "b: " << b << endl;
 	c = a / b;	
 	cout << c << endl;
+
+	a = a + 2;
+	cout << a << endl;
+
 	return 1;
 }

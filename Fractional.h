@@ -12,7 +12,7 @@ using std::istream;
 using std::ostream;
 class Fractional {
 public:
-	Fractional(int, int);
+	Fractional(int num = 0, int den = 1) : numerator(num), denominator(den) {}
 	Fractional(void){}
 	void operator=(const Fractional&);
 	/* we have to manipulate the private members, that's how friend comes */

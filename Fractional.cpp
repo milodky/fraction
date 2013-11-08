@@ -34,7 +34,7 @@ ostream& operator<<(ostream& os, const Fractional& rhs)
 	return os;
 }
 
-Fractional::Fractional(int num = 0, int den = 1) : numerator(num), denominator(den){}
+//Fractional::Fractional(int num = 0, int den = 1) : numerator(num), denominator(den){}
 void Fractional::operator=(const Fractional& rhs)
 {
 	numerator = rhs.numerator;
